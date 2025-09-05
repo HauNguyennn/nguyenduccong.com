@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Thanh header trên cùng */
+.top-bar {
+    background-color: #007bff; /* Màu xanh dương */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.top-bar-content {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.top-bar-content button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Phần nội dung chính */
+.main-content-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.header-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-text p {
+    font-style: italic;
+    color: #666;
+}
+
+.header-text h1 {
+    font-size: 4em;
+    font-weight: 700;
+    margin: 0;
+    color: #007bff;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-image-section {
+    flex: 1;
+    position: relative;
+}
+
+.profile-image-section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Hình tròn */
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    object-fit: cover;
+}
+
+.profile-text-section {
+    flex: 2;
+}
+
+.profile-text-section p {
+    margin-bottom: 20px;
+}
+
+/* Phần chân trang */
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-left h2 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.footer-left p {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.portfolio-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer-right {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-info, .services-info {
+    font-size: 0.9em;
+}
+
+.contact-info h4, .services-info h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.copyright-info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
